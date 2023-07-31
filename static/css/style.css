@@ -1,4 +1,6 @@
 :where(body) {
+	background-color: #283438;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
@@ -8,8 +10,19 @@
 	font-weight: 500;
 }
 
+.main {
+	padding-top: 0px;
+}
+
+header>* {
+	margin-block: .1rem;
+}
+
+section {
+	border-bottom: 1px solid gray;
+}
+
 .hero {
-	color: white;
 	background: url('/static/img/Blissful-Haven-Hotel-bg.png') no-repeat center center;
 	background-size: cover;
 	min-height: 75%;
@@ -23,5 +36,19 @@
 .words {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 2rem;
+}
+
+.btn {
+	width: 80%;
+}
+
+.welcome-content {
+	align-items: center;
+	padding-bottom: var(--block-spacing-vertical);
+}
+
+.welcome-content img {
+	border-radius: var(--border-radius);
 }
