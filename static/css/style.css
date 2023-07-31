@@ -1,0 +1,27 @@
+:where(body) {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+:where(h1, h2, h3) {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+}
+
+.hero {
+	color: white;
+	background: url('/static/img/Blissful-Haven-Hotel-bg.png') no-repeat center center;
+	background-size: cover;
+	min-height: 75%;
+
+	display: grid;
+	place-content: center;
+
+	text-align: center;
+}
+
+.words {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
