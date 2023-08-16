@@ -76,6 +76,7 @@ section {
 .acc {
 
 	h2 {
+		margin-bottom: 0;
 		text-align: center;
 	}
 
@@ -109,5 +110,12 @@ section {
 .family {
 	.grid {
 		gap: 2rem;
+	}
+}
+
+.promo {
+	h2 {
+		margin-bottom: 0;
+		text-align: center;
 	}
 }
