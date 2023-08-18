@@ -114,8 +114,31 @@ section {
 }
 
 .promo {
+
 	h2 {
 		margin-bottom: 0;
 		text-align: center;
+	}
+
+	h3 {
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	&__description {
+		padding-block: .5rem;
+		display: grid;
+		grid-template-rows: 70px 200px;
+		gap: 2rem;
+
+		p {
+			font-size: 1rem;
+		}
+	}
+
+	@media (max-width: 991px) {
+		&__description {
+			grid-template-rows: 70px 100px;
+		}
 	}
 }
